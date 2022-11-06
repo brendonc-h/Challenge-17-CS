@@ -47,6 +47,13 @@ In our case end of string must match with the 3 or 6 character pattern identifie
 
 ### Quantifiers
 
+Qualifiers: ?
+
+Code Snippet: `/^#?`
+
+Description: 
+? implies a boolean value, 0 or 1. Typically this makes the preceding symbol/character optional.
+
 ### OR Operator
 
 ### Character Classes
