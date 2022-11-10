@@ -132,10 +132,6 @@ Example:  `w.+l` matches `well` in `well` but the lazy `w.+?l` matches `wel`
 
 As explained in the quantifier section, normal quantifiers are greedy, causing the regex to match as many occurrences of a particular pattern as possible. However, if ? was appended, the quantifier would become lazy-- causing the regex to match as few occurrences as possible. In our case, the quantifier is greedy.
 
-### Boundaries
-
-### Back-references
-
 ### Conclusion
 Conclusion
 When combined we're given the following Regex:
